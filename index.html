@@ -22,22 +22,58 @@
         color: #242424;
       }
 
-      h1, h2, h3, h4,h5,h6 {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
         font-weight: bold;
         color: #0000ff;
         margin-bottom: 20px;
         text-align: center;
       }
+
+      .container {
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+
+      .card {
+        border: 1px #cccccc solid;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0.1);
+      }
+
+      .tamanho-50 {
+        width: 50%;
+        max-width: 50%;
+      }
     </style>
   </head>
 
   <body>
-    <h1 style="color: #ff0000">Fatec Jahu - CSS line</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore enim
-      asperiores repellat dicta distinctio odio, officiis nihil amet. Natus iure
-      aliquid corrupti soluta similique porro reprehenderit deserunt, temporibus
-      magnam?
-    </p>
+    <div class="container">
+      <h1 style="color: #ff0000">Fatec Jahu - CSS inline</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolore
+        enim asperiores repellat dicta distinctio odio, officiis nihil amet.
+        Natus iure aliquid corrupti soluta similique porro reprehenderit
+        deserunt, temporibus magnam?
+      </p>
+
+      <div class="card tamanho-50">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quo
+        quae itaque quod. Veritatis, necessitatibus temporibus? Quibusdam, nobis
+        est magnam doloribus ipsam excepturi corporis accusantium fugit, sit
+        nesciunt sapiente odit.
+      </div>
+
+      <div class="card tamanho-50">Palmeiras não tem mundial</div>
+
+      <div class="card tamanho-50">Corinthians Bi campeão mundial</div>
+    </div>
   </body>
 </html>
